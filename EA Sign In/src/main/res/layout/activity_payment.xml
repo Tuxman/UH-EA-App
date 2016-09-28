@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nick.test.Payment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How would you like to pay for membership today?"
+        android:textStyle="bold"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash - Semester\n$15"
+        android:id="@+id/button8"
+        android:onClick="cashResponse"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit - Semester\n$15"
+        android:id="@+id/button9"
+        android:onClick="creditResponse"
+        android:layout_gravity="center"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash - Year\n$25"
+        android:id="@+id/button11"
+        android:layout_below="@+id/button8"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit - Year\n$25"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button9"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+
+    <string-array name = "year_array">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+
+    <string-array name = "paid_array">
+        <item>No</item>
+        <item>Semester</item>
+        <item>Year</item>
+    </string-array>
+
+</resources>
